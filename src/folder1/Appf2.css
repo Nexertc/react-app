@@ -1,0 +1,8 @@
+.popup{
+  width: 30vw;
+  height: 30vw;
+  background: gold;
+  position: fixed;
+  left: 40%;
+  top: 40%;
+}

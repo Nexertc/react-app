@@ -1,0 +1,15 @@
+.app3{
+  padding: 2vw;
+  min-height: 100vh;
+  
+}
+
+.cn{
+  background: aqua;
+  height: 60%;
+  width: 80%;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  z-index: 999;
+}
