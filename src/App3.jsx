@@ -10,13 +10,13 @@ function App3(){
   const [hasil, hasilv] = useState("");
   
   function klik(){
-    const in1= parseInt(in1);
+    const nilai = parseInt(in1);
     
-    if(in1>= 90){
+    if(nilai>= 90){
       hasilv("Nilai A");
     }
-    else if(in1 >= 70){
-      hasilv("nilai B");
+    else if(nilai>=70){
+     hasilv("nilai B");
     }
     else{
       hasilv("nilai C");
