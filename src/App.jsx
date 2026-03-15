@@ -5,7 +5,7 @@ import Sec from "./components/section";
 import Footer from "./components/footer";
 import { useState, useRef, useEffect } from "react";
 import {  useNavigate } from "react-router-dom"; 
-
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
@@ -40,6 +40,7 @@ function App() {
 
   return (
     <div className="konten">
+       <ScrollToTop />
       <Nav texs="navgasi"/>
 
 

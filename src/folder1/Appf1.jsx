@@ -3,6 +3,7 @@ import Sec from "../components/section";
 import "./Appf1.css";
 import Nav from "../components/nav";
 import {useState, useRef} from "react";
+import ScrollToTop from "../components/ScrollToTop";
 
 function Appf1(){
   const navigate = useNavigate();
@@ -19,6 +20,7 @@ function Appf1(){
    <div>     
    <Nav texs= "nwvigasi" />
     <main className= "konten">
+<ScrollToTop />
 
       <button
       className="btnr"
