@@ -2,10 +2,12 @@ body{
   margin: 0;
 }
 
-.layout{
-  min-height: 100vh;
+.konten{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 20vw;
+  min-height: 100vh;
 }
 
 /* navbar */
@@ -16,15 +18,9 @@ body{
   align-items: center;
   justify-content: center;
   height: 70px;
-}
-
-/* isi */
-.content{
-  flex: 1; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
- margin-bottom: 30vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .btnx{
@@ -56,10 +52,11 @@ body{
   background: rgb(48,70,91);
   height: 35vw;
   color: white;
-  padding: 3vw;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .btn2{

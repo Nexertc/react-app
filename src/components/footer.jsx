@@ -2,7 +2,7 @@ import "../index.css"
 
 function Footer({teks, tagfo}){
   return (
-  <div>
+  <div className = {tagfo}>
   <footer className = {tagfo}>
     
     <p>{teks}</p>

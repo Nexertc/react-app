@@ -35,13 +35,19 @@ function Appf1(){
         >Hello World</h3>
         
               <Sec
-          namec="secx"
+          namec="secx secx1"
           tagh="taghx"
           tagp="tagpx"
-          teks="Ini adalah paragraft 1 yang dibuat menggunakan jsx section difolder components, terimakasih."
-        />
+          teks={
+         <div className= "teksx">
+      Ini adalah paragraf 1 <br/>
+      yang dibuat menggunakan jsx section difolder components, terimakasih
+      <h3>Heading H3</h3>
+          </div>
+           }
+          />
       
-      <button className= "btnr" onClick= {() => navigate("/appf2")}>klik Appf2</button>
+      <button className= "btnr btnr1" onClick= {() => navigate("/appf2")}>klik Appf2</button>
       
     </main>
     </div>

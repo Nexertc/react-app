@@ -39,10 +39,10 @@ function App() {
   }
 
   return (
-    <div className="layout">
+    <div className="konten">
       <Nav texs="navgasi"/>
 
-      <main className="content">
+
         <img
           className="img1"
           src="https://nexertc.github.io/websitear/websitear/img/ardeva.png"
@@ -61,6 +61,22 @@ function App() {
                 <Button
           klik = {() => navigate("/appf1")}
           teks="klik disinin appf1"
+          className="btnx"
+        />
+                 <Button
+          klik = {() => navigate("/appf2")}
+          teks="klik disinin appf2"
+          className="btnx"
+        />
+                 <Button
+          klik = {() => navigate("/appf3")}
+          teks="klik disinin appf3"
+          className="btnx"
+        />
+        
+                 <Button
+          klik = {() => navigate("/appf4")}
+          teks="klik disinin appf4"
           className="btnx"
         />
         
@@ -84,7 +100,7 @@ function App() {
       <button onClick={() => navigate("/app2")}> Pindah ke App2 </button>
 
       
-      </main>
+      
       
   
       <Footer tagfo="tagfo" teks="footer" />

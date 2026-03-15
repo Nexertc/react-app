@@ -34,7 +34,7 @@ function App3(){
     
   
   return(
-    <div className= "app3">
+    <div className= "app3 konten">
      <input 
      type= "number"
      value= {in1}

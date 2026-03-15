@@ -13,7 +13,8 @@ function Appf2(){
   }
   
   return(
-    <div>
+    <div className= "konten">
+      <h3>Appf2</h3>
        <main>
          <button onClick = {klik}>
            klik disini

@@ -16,7 +16,7 @@ function Nav({texs}) {
   
   return(
     
-    <div>
+    <div className="navv">
       <nav className="navv">
         {texs}
       <Button 
